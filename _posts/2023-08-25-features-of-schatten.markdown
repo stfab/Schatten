@@ -9,7 +9,7 @@ image: https://cdn.pixabay.com/photo/2023/08/18/11/35/frog-8198313_1280.jpg
 image_title: 'A frog looking out of the water'
 ---
 
-Schatten offers some features that are not available in the default Jekyll theme. This post will demonstrate some of them. For general information on the syntax, see [Text Formatting Examples](/text-formatting-examples).
+Schatten offers some features that are not available in the default Jekyll theme. This post will demonstrate some of them. For general information on the syntax, see [Text Formatting Examples]({{site.github.url}}/text-formatting-examples.html).
 
 ## Version 1.0.0
 

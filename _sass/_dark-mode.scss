@@ -6,7 +6,7 @@
 }
 
 .dark-mode {
-    transition: background 1s;
+    // transition: background 1s; // removed because can be annoying
     color: $dark-body-color;
     background-color: #151515;
 
