@@ -1,6 +1,6 @@
 # Schatten
 
-Schatten is a modern Jekyll theme for blogs or personal websites. See the [demo](https://stfab.github.io/schatten/) for a live example.
+Schatten is a modern Jekyll theme for blogs or personal websites. See the [demo](https://stfab.github.io/Schatten/) for a live example.
 
 ![](/assets/img/preview.png)
 
@@ -21,7 +21,7 @@ Schatten's original goal is to offer the following features:
 
 ## Installation and Usage
 
-Check out the about page of this theme [here](https://stfab.github.io/schatten/about/) for more information on how to install and use this theme.
+Check out the about page of this theme [here](https://stfab.github.io/Schatten/about/) for more information on how to install and use this theme.
 
 ## Jekyll
 
