@@ -17,7 +17,7 @@ pages:
 # Available social icons are powered by Font Awesome (https://fontawesome.com/icons)
 # specify the icon name and the icon class as defined by Font Awesome
 social:
-- {icon: 'github', icon-class: 'brands', link: 'https://www.github.com/stfab/schatten'}
+- {icon: 'github', icon-class: 'brands', link: 'https://www.github.com/stfab/Schatten'}
 - {icon: 'envelope', icon-class: 'solid', link: 'mail@fabianstadler.com'}
 - {icon: 'square-rss', icon-class: 'solid', link: '/feed.xml'}
 

@@ -15,7 +15,7 @@ layout: default
     {% assign years_split = years | split: ' - ' %}
     {% if years_split contains year %}
     {% else %}
-      <li><a href="/{{ year }}">{{ year }}</a></li>
+      <li><a href="{{ site.github.url }}/{{ year }}">{{ year }}</a></li>
     {% endif %}
     {% assign years = years | append: ' - ' | append: year %}
   {% endfor %}
@@ -25,7 +25,7 @@ layout: default
   <ul>
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
-    <li><a href="/categories/{{ category | first }}">{{ category | first }}</a></li>
+    <li><a href="{{ site.github.url }}/categories/{{ category | first }}">{{ category | first }}</a></li>
   {% endfor %}
   </ul>
 
@@ -33,7 +33,7 @@ layout: default
   <ul>
   {% assign tags = site.tags | sort %}
   {% for tag in tags %}
-    <li><a href="/tags/{{ tag | first }}">{{ tag | first }}</a></li>
+    <li><a href="{{ site.github.url }}/tags/{{ tag | first }}">{{ tag | first }}</a></li>
   {% endfor %}
   </ul>
 </div>
