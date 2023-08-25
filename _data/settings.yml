@@ -1,0 +1,29 @@
+# Change the values to your liking
+
+# Add your Google Analytics ID here
+google-ID: ''
+
+# Add your page title, subtitle and author here
+# make sure to use the same as in _config.yml
+page-title: 'Schatten'
+page-subtitle: 'A modern Jekyll theme'
+author: 'Fabian Stadler'
+
+# configure your pages for the navbar here
+pages:
+  - {name: 'About', link: '/about'}
+  - {name: 'Archive', link: '/archive'}
+
+# Available social icons are powered by Font Awesome (https://fontawesome.com/icons)
+# specify the icon name and the icon class as defined by Font Awesome
+social:
+- {icon: 'github', icon-class: 'brands', link: 'https://www.github.com/stfab/schatten'}
+- {icon: 'envelope', icon-class: 'solid', link: 'mail@fabianstadler.com'}
+- {icon: 'square-rss', icon-class: 'solid', link: '/feed.xml'}
+
+# the copyright year for the footer, comment out to disable
+copyright: 2023
+
+# the license for the footer and the link, comment out to disable
+license: 'CC BY-NC-SA 4.0 Attribution-ShareAlike 4.0 International.'
+license-link: 'https://creativecommons.org/licenses/by-nc-sa/4.0/'

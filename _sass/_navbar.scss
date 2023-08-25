@@ -1,0 +1,14 @@
+.navbar {
+    display: inline;
+    float: left;
+    margin: 0;
+    font-family: $sans-serif-font-family;
+    font-size: 1rem;
+    margin-top: 1vh;
+    margin-left: 2px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-right: 1rem;
+}

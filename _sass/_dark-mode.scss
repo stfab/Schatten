@@ -1,0 +1,432 @@
+.dark-mode-toggle {
+    padding-left: 10px;
+    border-left: 1px solid;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.dark-mode {
+    transition: background 1s;
+    color: $dark-body-color;
+    background-color: #151515;
+
+    .container {
+        background-color: #232323;
+
+        .related {
+            border-top-color: $dark-basic-color-two;
+        }
+
+        .post-preview {
+            border-top-color: $dark-basic-color;
+        }
+
+        .post-image-subtitle {
+            color: $dark-basic-color-two;
+        }
+
+        .post-date {
+            color: $dark-basic-color-two;
+        }
+
+        .social-icons a {
+            color: $dark-basic-color-two;
+        }
+
+        .pagination-button {
+            color: $dark-basic-color-two;
+            border-color: $dark-pagination-button-color;
+        }
+
+        .pagination-active {
+            color: $dark-link-color;
+        }
+
+        .pagination-active:hover {
+            background-color: $dark-pagination-button-color;
+        }
+
+        .footer {
+            color: $dark-basic-color-two;
+            border-top-color: $dark-basic-color-two;
+        }
+
+        .footer a {
+            color: $dark-basic-color-two;
+        }
+
+        .footer a:hover {
+            color: $dark-basic-color;
+        }
+
+        .footer-description {
+            color: $dark-basic-color-two;
+        }
+
+        .header-toolbar {
+            border-bottom-color: $dark-basic-color-two;
+        }
+
+        // add border between each a tag in toolbar
+        .header-toolbar a {
+            border-right-color: $dark-basic-color-two;
+        }
+
+        code {
+            background-color: $dark-code-background-color;
+        }
+
+        pre {
+            background-color: $dark-code-background-color;
+        }
+
+        pre code {
+            color: inherit;
+            background-color: transparent;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $dark-basic-color;
+        }
+
+        a {
+            color: $dark-basic-color;
+        }
+
+        a:hover {
+            color: $dark-link-color;
+        }
+
+
+        blockquote {
+            border-left-color: $dark-basic-color-three;
+            color: $dark-basic-color-two;
+        }
+
+        hr {
+            border-top-color: $dark-basic-color-three;
+        }
+    }
+
+    /*
+    Code
+    */
+
+    .highlight .hll {
+        background-color: $text-color
+    }
+
+    /* Comment */
+    .highlight .c {
+        color: $comment-color
+    }
+
+    /* Error */
+    .highlight .err {
+        color: $string-color;
+        background-color: $comment-color
+    }
+
+    /* Keyword */
+    .highlight .k {
+        color: $keyword-color;
+    }
+
+    /* Operator */
+    .highlight .o {
+        color: $comment-color
+    }
+
+    /* Comment.Multiline */
+    .highlight .cm {
+        color: $keyword-color;
+        font-style: italic
+    }
+
+    /* Comment.Preproc */
+    .highlight .cp {
+        color: $number-color
+    }
+
+    /* Comment.Single */
+    .highlight .c1 {
+        color: $comment-color;
+    }
+
+    /* Comment.Special */
+    .highlight .cs {
+        color: $comment-color;
+    }
+
+    /* Generic.Deleted */
+    .highlight .gd {
+        background-color: $text-color;
+        border: 1px solid $string-color
+    }
+
+    /* Generic.Emph */
+    .highlight .ge {
+        font-style: italic
+    }
+
+    /* Generic.Error */
+    .highlight .gr {
+        color: $string-color
+    }
+
+    /* Generic.Heading */
+    .highlight .gh {
+        color: $number-color;
+    }
+
+    /* Generic.Inserted */
+    .highlight .gi {
+        background-color: $text-color;
+        border: 1px solid $number-color
+    }
+
+    /* Generic.Output */
+    .highlight .go {
+        color: $comment-color
+    }
+
+    /* Generic.Prompt */
+    .highlight .gp {
+        color: $keyword-color
+    }
+
+    /* Generic.Strong */
+    .highlight .gs {}
+
+    /* Generic.Subheading */
+    .highlight .gu {
+        color: $text-color;
+    }
+
+    /* Generic.Traceback */
+    .highlight .gt {
+        color: $number-color
+    }
+
+    /* Keyword.Constant */
+    .highlight .kc {
+        color: $keyword-color;
+    }
+
+    /* Keyword.Declaration */
+    .highlight .kd {
+        color: $keyword-color;
+    }
+
+    /* Keyword.Namespace */
+    .highlight .kn {
+        color: $keyword-color;
+    }
+
+    /* Keyword.Pseudo */
+    .highlight .kp {
+        color: $keyword-color;
+    }
+
+    /* Keyword.Reserved */
+    .highlight .kr {
+        color: $keyword-color;
+    }
+
+    /* Keyword.Type */
+    .highlight .kt {
+        color: $keyword-color;
+    }
+
+    /* Literal.Number */
+    .highlight .m {
+        color: $string-color
+    }
+
+    /* Literal.String */
+    .highlight .s {
+        color: $string-color
+    }
+
+    /* Name.Attribute */
+    .highlight .na {
+        color: $keyword-color
+    }
+
+    /* Name.Builtin */
+    .highlight .nb {
+        color: $text-color
+    }
+
+    /* Name.Class */
+    .highlight .nc {
+        color: $text-color
+    }
+
+    /* Name.Constant */
+    .highlight .no {
+        color: $text-color
+    }
+
+    /* Name.Decorator */
+    .highlight .nd {
+        color: $string-color
+    }
+
+    /* Name.Entity */
+    .highlight .ni {
+        color: $comment-color
+    }
+
+    /* Name.Exception */
+    .highlight .ne {
+        color: $string-color
+    }
+
+    /* Name.Function */
+    .highlight .nf {
+        color: $text-color
+    }
+
+    /* Name.Label */
+    .highlight .nl {
+        color: $keyword-color
+    }
+
+    /* Name.Namespace */
+    .highlight .nn {
+        color: $text-color
+    }
+
+    /* Name.Tag */
+    .highlight .nt {
+        color: $keyword-color
+    }
+
+    /* Name.Variable */
+    .highlight .nv {
+        color: $text-color
+    }
+
+    /* Operator.Word */
+    .highlight .ow {
+        color: $text-color;
+    }
+
+    /* Text.$text-colorspace */
+    .highlight .w {
+        color: $text-color
+    }
+
+    /* Literal.Number.Float */
+    .highlight .mf {
+        color: $number-color
+    }
+
+    /* Literal.Number.Hex */
+    .highlight .mh {
+        color: $number-color
+    }
+
+    /* Literal.Number.Integer */
+    .highlight .mi {
+        color: $number-color
+    }
+
+    /* Literal.Number.Oct */
+    .highlight .mo {
+        color: $number-color
+    }
+
+    /* Literal.String.Backtick */
+    .highlight .sb {
+        color: $string-color
+    }
+
+    /* Literal.String.Char */
+    .highlight .sc {
+        color: $string-color
+    }
+
+    /* Literal.String.Doc */
+    .highlight .sd {
+        color: $string-color;
+        font-style: italic
+    }
+
+    /* Literal.String.Double */
+    .highlight .s2 {
+        color: $string-color
+    }
+
+    /* Literal.String.Escape */
+    .highlight .se {
+        color: $string-color
+    }
+
+    /* Literal.String.Heredoc */
+    .highlight .sh {
+        color: $string-color
+    }
+
+    /* Literal.String.Interpol */
+    .highlight .si {
+        color: $string-color
+    }
+
+    /* Literal.String.Other */
+    .highlight .sx {
+        color: $string-color
+    }
+
+    /* Literal.String.Regex */
+    .highlight .sr {
+        color: $keyword-color
+    }
+
+    /* Literal.String.Single */
+    .highlight .s1 {
+        color: $string-color
+    }
+
+    /* Literal.String.Symbol */
+    .highlight .ss {
+        color: $string-color
+    }
+
+    /* Name.Builtin.Pseudo */
+    .highlight .bp {
+        color: $keyword-color
+    }
+
+    /* Name.Variable.Class */
+    .highlight .vc {
+        color: $number-color
+    }
+
+    /* Name.Variable.Global */
+    .highlight .vg {
+        color: $number-color
+    }
+
+    /* Name.Variable.Instance */
+    .highlight .vi {
+        color: $number-color
+    }
+
+    /* Literal.Number.Integer.Long */
+    .highlight .il {
+        color: $string-color
+    }
+
+    .css .o,
+    .css .o+.nt,
+    .css .nt+.nt {
+        color: $comment-color
+    }
+}

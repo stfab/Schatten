@@ -1,0 +1,131 @@
+@media (max-width: $container-responsive-width) {
+    .container {
+        width: 92vw;
+    }
+}
+
+@media (max-width: $elements-responsive-width) {
+
+    body {
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+
+    body h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        min-height: 100vh;
+    }
+
+    .header-subtitle {
+        display: inline;
+        float: left;
+        width: 100%;
+        padding-left: 2px;
+    }
+
+    .archive {
+        a {
+            font-size: 20px;
+        }
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .post-content p {
+        font-size: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+
+        a {
+            font-size: 18px;
+        }
+    }
+
+    .categories {
+        a {
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            text-align: center;
+            padding-left: 0;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    pre,
+    code {
+        font-size: 13px;
+        vertical-align: middle;
+    }
+
+    figure {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+
+    .post-preview-meta {
+        float: none;
+        width: 100%;
+
+        p {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }        
+    }
+
+    .post-image-preview {
+        float: none;
+        width: 100%;
+    }
+
+    .posts h1 {
+        font-size: 26px;
+    }
+
+    .social-icons {
+        display: inline;
+        float: left;
+        padding-top: 0px;
+        width: 100%;
+        padding-left: 2px;
+
+        .dark-toggle-button {
+            display: inline;
+            float: right;
+        }
+    }
+
+    .sharing {
+        .sharing-icons {
+            align-items: center;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 90%;
+        }
+    }
+}

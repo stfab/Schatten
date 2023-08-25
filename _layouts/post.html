@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+{% if page.image %}
+  {% if page.image contains 'http' %}
+    <img class="post-image" src="{{ page.image }}" alt="{{ page.image_description }}">
+  {% else %}
+    <img class="post-image" src="{{ site.github.url }}/{{ page.image }}" alt="{{ page.image_description }}">
+  {% endif %}
+  {% if page.image_title %}
+    <p class="post-image-subtitle">{{ page.image_title }}</p>
+  {% endif %}
+{% endif %}
+<article class="post-content">
+  {{ content | toc_only }}
+  {{ content }}
+</article>
+
+<p class="post-date">
+  Written on {{ page.date | date: "%B %-d, %Y" }} by {{ page.author }}.
+</p>
+
+{% include sharing-links.html %}
+
+{% if site.hide_related_posts != true %}
+  {% include related-posts.html %}
+{% endif %}

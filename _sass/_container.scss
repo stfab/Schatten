@@ -1,0 +1,25 @@
+/*
+  Site container
+*/
+
+.container {
+  display: flow-root;
+  top: 0rem;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  min-height: 90vh;
+  height: 100%;
+  padding: 2vh;
+}
+
+.content-container {
+  display: inline;
+  float: left;
+  min-height: 61vh;
+  width: 100%;
+}
+

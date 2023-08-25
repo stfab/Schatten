@@ -1,0 +1,47 @@
+/*
+  Social media icons
+*/
+
+.social-icons {
+  display: inline;
+  float: right;
+  margin-top: 1vh;
+
+  .icon {
+    padding-right: 5px;
+    font-size: 17px;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+}
+
+
+.sharing {
+  padding-bottom: 10px;
+
+  .sharing-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+
+    .fa-brands,
+    .fab {
+      font-size: 20px;
+    }
+  }
+
+}
+
+@mixin social-media-icon($color, $transition) {
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+
+  &:hover {
+    color: $color;
+  }
+}
