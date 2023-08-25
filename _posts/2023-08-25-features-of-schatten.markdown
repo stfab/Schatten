@@ -30,7 +30,3 @@ Schatten also offers a light and a dark mode. The default mode is light, but you
 By specifying the image tag, you can either load a local asset or an external image. The external image can be an URL and should contain `http`. Else Schatten will look for a local asset with the given path, for example `assets/images/my-image.jpg`.
 
 Further, you can add a subtitle to your image by adding the `image_title` tag. This will be displayed below the image.
-
-### Table of contents
-
-The jekyll-toc plugin can be used to generate a table of contents for your posts. You can enable it by setting `toc: true` in the front matter of your post. The table of contents will be generated from the headings in your post. You can configure the plugin in the `_config.yml` file. For adding the toc to a new layout, add ´{{content | toc_only}}´.
