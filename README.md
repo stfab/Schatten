@@ -104,6 +104,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 ## Contributing/Feature Requests
 
-If you would like to make a feature request or report a bug or typo in the documentation,submit a GitHub issue. To contribute, create a fork of this repo and make a pull request from a new feature branch to the official repo's main branch. 
+If you would like to make a feature request or report a bug or typo in the documentation, submit a GitHub issue. To contribute, create a fork of this repo and make a pull request from a new feature branch to the official repo's main branch. 
 
 Bug fixing is always welcome, for feature requests please open an issue first to discuss what you would like to add. Since the goal of this theme is to be minimalistic, I do not intend to make it feature rich.
