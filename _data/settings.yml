@@ -11,8 +11,8 @@ author: 'Fabian Stadler'
 
 # configure your pages for the navbar here
 pages:
-  - {name: 'About', link: '/about'}
-  - {name: 'Archive', link: '/archive'}
+  - {name: 'About', link: '/about.html'}
+  - {name: 'Archive', link: '/archive.html'}
 
 # Available social icons are powered by Font Awesome (https://fontawesome.com/icons)
 # specify the icon name and the icon class as defined by Font Awesome
