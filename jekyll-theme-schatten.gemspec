@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "schatten"
+  spec.name          = "jekyll-theme-schatten"
   spec.version       = "1.0.0"
   spec.authors       = ["Fabian Stadler"]
   spec.email         = ["mail@fabianstadler.com"]
 
-  spec.summary       = "A modern Jekyll theme."
+  spec.summary       = "A modern Jekyll theme with dark mode."
   spec.homepage      = "https://github.com/stfab/Schatten"
   spec.license       = "MIT"
 
