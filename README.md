@@ -1,4 +1,4 @@
-# Schatten
+# jekyll-theme-schatten
 
 Schatten is a modern Jekyll theme for blogs or personal websites. See the [demo](https://schatten-ioch6.ondigitalocean.app/) for a live example.
 
