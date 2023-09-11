@@ -1,13 +1,13 @@
 <footer class="footer">
   <div class="footer-description">
-    <a href="{{ site.github.url }}/">{{ site.data.settings.page-title }} | {{ site.data.settings.page-subtitle }} by {{site.author }}</a>
+    <a href="{{ site.github.url }}/">{{ site.title }} | {{ site.description }} by {{site.author }}</a>
     <br>
-    {% if site.data.settings.copyright %}
-      &copy; {{ site.data.settings.copyright }} {{ site.author }}
+    {% if site.copyright %}
+      &copy; {{ site.copyright }} {{ site.author }}
     {% endif %}
     <br>
-    {% if site.data.settings.license %}
-      All content<a href="{{ site.data.settings.license-link }}">{{ site.data.settings.license }}</a>
+    {% if site.license %}
+      All content<a href="{{ site.license-link }}">{{ site.license }}</a>
     {% endif %}
   </div>
   <script>

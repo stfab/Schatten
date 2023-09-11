@@ -1,5 +1,5 @@
 <nav class="social-icons">
-  {% for item in site.data.settings.social %}
+  {% for item in site.social %}
     {% assign first_char = item.link | slice: 0 %}
     {% if item.icon == 'mastodon' %}
       <a class="icon"  rel="me" href="{{ item.link }}" target="_blank"><i class="fa-brands fa-{{ item.icon }}" aria-hidden="true"></i></a>
