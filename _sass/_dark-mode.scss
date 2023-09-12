@@ -111,6 +111,10 @@
         hr {
             border-top-color: $dark-basic-color-three;
         }
+
+        table, th, td {
+            border-color: $dark-basic-color;
+        }
     }
 
     /*
