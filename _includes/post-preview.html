@@ -14,7 +14,12 @@
     </div>
     {% if post.image %}
     <div class="post-image-preview">
-        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/{{ post.image }}" alt="{{ post.title }}"></a>
+      {% if post.image contains 'http' %}
+      <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+    {% else %}
+      <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/{{ post.image }}" alt="{{ post.title }}"></a>
+    {% endif %}
+
     </div>
     {% endif %}
 </article>
