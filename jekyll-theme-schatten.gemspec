@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-schatten"
-  spec.version       = "1.1.4"
+  spec.version       = "1.1.5"
   spec.authors       = ["Fabian Stadler"]
   spec.email         = ["mail@fabianstadler.com"]
 
@@ -12,14 +12,14 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|CHANGELOG)!i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.9.0"
-  spec.add_runtime_dependency "jekyll-feed", "~> 0.12.1"
-  spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4.0"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6.1"
-  spec.add_runtime_dependency "jekyll-toc", "~> 0.18.0"
-  spec.add_runtime_dependency "jekyll-archives", "~> 2.2.1"
-  spec.add_runtime_dependency "jekyll-loading-lazy", "~> 0.1.1"
-  spec.add_runtime_dependency "kramdown-parser-gfm", "~> 1.1.0"
-  spec.add_runtime_dependency "jekyll-scholar", "~> 7.1.3"
+  spec.add_runtime_dependency "jekyll", ">= 4.0", "< 5.0"
+  spec.add_runtime_dependency "jekyll-feed", ">= 0.12.1"
+  spec.add_runtime_dependency "jekyll-sitemap", ">= 1.4.0"
+  spec.add_runtime_dependency "jekyll-seo-tag", ">= 2.6.1"
+  spec.add_runtime_dependency "jekyll-toc", ">= 0.18.0"
+  spec.add_runtime_dependency "jekyll-archives", ">= 2.2.1"
+  spec.add_runtime_dependency "jekyll-loading-lazy", ">= 0.1.1"
+  spec.add_runtime_dependency "kramdown-parser-gfm", ">= 1.1.0"
+  spec.add_runtime_dependency "jekyll-scholar", ">= 7.1.3"
 
 end
