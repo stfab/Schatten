@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-schatten"
-  spec.version       = "1.1.3"
+  spec.version       = "1.1.4"
   spec.authors       = ["Fabian Stadler"]
   spec.email         = ["mail@fabianstadler.com"]
 
@@ -18,6 +18,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6.1"
   spec.add_runtime_dependency "jekyll-toc", "~> 0.18.0"
   spec.add_runtime_dependency "jekyll-archives", "~> 2.2.1"
+  spec.add_runtime_dependency "jekyll-loading-lazy", "~> 0.1.1"
   spec.add_runtime_dependency "kramdown-parser-gfm", "~> 1.1.0"
+  spec.add_runtime_dependency "jekyll-scholar", "~> 7.1.3"
 
 end
